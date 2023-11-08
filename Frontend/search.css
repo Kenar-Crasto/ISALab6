@@ -1,0 +1,68 @@
+/* Style the form container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+#searchForm {
+    background-color: #ffffff;
+    width: 350px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #4d90fe;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form elements */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #4d90fe;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #357abd;
+}
+
+/* Style the result divs */
+#definition, #wordLanguage, #definitionLanguage {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the script link (optional) */
+script[src="./search.js"] {
+    font-style: italic;
+    color: #777;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
